@@ -1,21 +1,25 @@
 {
   "srcDir": "src",
-  "srcFiles": [
-    "**/*.js"
-  ],
+  "srcFiles": ["**/*.js"],
   "specDir": "spec",
   "specFiles": [
-    "**/*[sS]pec.js"
+    "**/*00_spec.js",
+    "**/*01_spec.js",
+    "**/*02_spec.js",
+    "**/*03_spec.js",
+    "**/*04_spec.js",
+    "**/*05_spec.js",
+    "**/*06_spec.js",
+    "**/*07_spec.js",
+    "**/*08_spec.js"
   ],
-  "helpers": [
-    "helpers/**/*.js"
-  ],
+  "helpers": ["helpers/**/*.js"],
   "env": {
     "stopSpecOnExpectationFailure": false,
     "stopOnSpecFailure": false,
     "random": true
   },
   "browser": {
-    "name": "firefox"
+    "name": "chrome"
   }
 }

@@ -4,6 +4,7 @@
   "description": "testing functional and object-oriented javascript",
   "scripts": {
     "test": "jasmine-browser-runner serve",
+    "test:watch": "nodemon -x 'npm test'",
     "grade": "xvfb-run testem ci"
   },
   "devDependencies": {
@@ -13,6 +14,7 @@
     "jasmine": "^5.0.2",
     "jasmine-browser-runner": "^2.0.0",
     "jasmine-core": "^5.0.1",
+    "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
     "testem": "^3.10.1"
   }
