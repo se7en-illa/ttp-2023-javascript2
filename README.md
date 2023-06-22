@@ -6,7 +6,7 @@
 
 2. **Fork the repository to your personal GitHub Account**
 
-3. **Clone** the forked repository and `cd` (change directories) so you are in the `ttp-2023-javascript2` directory in your terminal.
+3. `git clone` the forked repository and `cd` (change directories) so you are in the `ttp-2023-javascript2` directory in your terminal.
 
 4. Once you've changed directories into the repository folder, execute the command `npm install` in your terminal. This installs the necessary packages for the test specs to run.
 
