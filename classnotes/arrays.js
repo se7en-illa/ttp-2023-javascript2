@@ -71,3 +71,19 @@ console.log(nameArray);
 
 console.log(nameArray.indexOf('emma'));
 console.log(nameArray.indexOf('jack'));
+
+// SLICE METHOD: extracts a portion of the array
+
+let sliced = nameArray.slice(0, 2);
+console.log(sliced);
+
+// INCLUDES METHOD: check if a value is in the array
+
+console.log(nameArray.includes('emma'));
+console.log(nameArray.includes('jack'));
+
+// REVERSE METHOD: reverses the array. does NOT make a copy
+
+console.log(nameArray);
+console.log(nameArray.reverse());
+console.log(nameArray);
