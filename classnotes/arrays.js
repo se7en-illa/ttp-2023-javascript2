@@ -87,3 +87,61 @@ console.log(nameArray.includes('jack'));
 console.log(nameArray);
 console.log(nameArray.reverse());
 console.log(nameArray);
+
+// SPLICE METHOD: mutates the original array. used to add or remove elements from the middle of the array
+// does NOT make a copy. it will modify the array
+// first argument is an index, the second is a count of elements
+// will delete started at provided index
+// returns new array with all removed elements
+
+let fruits = ['apples', 'bananas', 'grapes', 'oranges'];
+console.log(fruits);
+let fruitSlice = fruits.splice(0, 2);
+console.log(fruits);
+console.log(fruitSlice);
+
+// JOIN METHOD: joins the array into a string
+
+let friends = ['harry', 'ron', 'hermione'];
+
+console.log('My friends are ' + friends.join(''));
+console.log('My friends are ' + friends.join(' ')); // don't forget to add the space
+console.log('My friends are ' + friends.join('X'));
+
+// CONCAT METHOD: short for concatenate. combines arrays
+
+let newFriends = ['fred', 'george', 'ginny'];
+console.log(friends.concat(newFriends));
+
+// NESTED ARRAYS: arrays can have many levels of nesting.
+
+let relatedThings = [
+  ['Windows', 'MacOS'],
+  ['New York', 'Chicago'],
+];
+
+let operatingSystems = relatedThings[0];
+let cities = relatedThings[1];
+
+console.log(relatedThings);
+console.log(operatingSystems);
+console.log(cities);
+
+// if i wanted to access a value within a nested array:
+console.log(relatedThings[0][1]);
+
+// LOOPING THROUGH NESTED ARRAYS
+
+let grid = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+for (let i = 0; i < grid.length; i++) {
+  let row = grid[i];
+  console.log(row);
+  for (let j = 0; j < row.length; j++) {
+    console.log(row[j]);
+  }
+}
