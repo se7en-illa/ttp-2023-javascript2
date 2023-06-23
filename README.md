@@ -16,7 +16,7 @@ Note: the npm commands **need to be executed inside of the ttp-2023-javascript2 
 
 6. Review each problem carefully before reading the Test Specs.
 
-7. Write your solution code in the `solution_${problem-name}.js` file.
+7. Write your solution code in the `${num}_solution` file.
 
 8. Run the test specs to test your code.
 
