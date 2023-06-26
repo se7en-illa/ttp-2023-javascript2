@@ -14,9 +14,9 @@
 
 Note: the npm commands **need to be executed inside of the ttp-2023-javascript2 directory**.
 
-6. Review each problem carefully before reading the Test Specs.
+6. Review each problem carefully. Instructions for each are in the `${num}_instructions.md`. To run the markdown preview, use `CMD + SHIFT + V` on Mac, or `CTRL + SHIFT + V` on Windows.
 
-7. Write your solution code in the `${num}_solution` file.
+7. Write your solution code in the `${num}_solution.js` file.
 
 8. Run the test specs to test your code.
 
